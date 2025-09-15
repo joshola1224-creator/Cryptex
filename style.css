@@ -7,15 +7,49 @@ body {
     background-color: white;
     width: 100%;
 }
-nav {
+
+header {
     background: linear-gradient(to bottom, purple, navy, pink); 
     width: 100%;
     height: 70px;
+   
     position: sticky;
     z-index: 1;
   }
 
-  .logo {
+  ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 300px;
+    padding-top: 24px;    
+}
+
+  .headbutton a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .headbutton {
+    width: 140px;
+    height: 50px;
+    background-color: navy;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 5px;
+    box-shadow: 100px;
+  }
+
+  .headbutton:hover {
+    background-color: purple;
+  }
+
+.logo {
     width: 50px;
     height: 50px;
     border-radius: 30px;
@@ -37,12 +71,7 @@ li a {
     color: white;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    margin-left: 520px;
-    padding-top: 17px;    
-}
+
 
 .bgimg {
     width: 100%;
